@@ -3,6 +3,9 @@
 @import '_fonts';
 
 // start header
+.header{
+    background-color: #fff;
+}
 .header__top-inner{
     display: flex;
     justify-content: space-between;
@@ -110,6 +113,7 @@
 }
 
 .basket{
+    margin-right: 20px;
     span{
         background-color: $green;
     }
@@ -119,14 +123,14 @@
     display: none;
 }
 .header__btn-logout{
-    display: block;
-    &.header__btn-login--off{
+    display: none;
+    &.header__btn-login--on{
         display: block;
     }
 }
 
 .user{
-    margin-left: 20px;
+
     margin-right: 25px;
     padding-right: 25px;
     position: relative;
@@ -191,6 +195,7 @@
     height: 0;
     overflow: hidden;
     transition: all .3s;
+    z-index: 1;
 }
 
 .user__box,
@@ -320,6 +325,11 @@
 }
 .icons-color::before{
     color: $tomato;
+}
+
+.header__btn-menu,
+.menu__btn{
+    display: none;
 }
 
 // end header
@@ -1213,3 +1223,15 @@ button.icon-sort-amount-desc{
     }
 }
 // end product-page
+
+
+
+
+
+
+
+
+
+
+
+@import 'media';

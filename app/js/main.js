@@ -38,6 +38,15 @@ $('.icon-th').on('click', function(){
     $('.icon-th-list').removeClass('active');
 });
 
+$('.header__btn-menu').on('click', function(){ 
+    $('.header__box').toggleClass('active');
+});
+
+$('.menu__btn').on('click', function(){  /* клик по меню хэдера */
+    $('.menu__list').slideToggle();
+});
+
+
 var mixer = mixitup('.products__inner-box');
 
 });

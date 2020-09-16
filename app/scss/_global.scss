@@ -29,6 +29,10 @@ body{
     line-height: 24px;
     color: $text;
 }
+
+body{
+    overflow-x: hidden;
+}
 .wrapper{
     display: flex;
     flex-direction: column;
