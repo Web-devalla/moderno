@@ -9,6 +9,7 @@
     "gulp-autoprefixer": "^7.0.1"
   },
   "devDependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.26.12",
     "cssmin": "^0.4.3",
     "gulp": "^4.0.2",
