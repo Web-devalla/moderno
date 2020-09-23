@@ -56,6 +56,8 @@ $('.product-one__tabs .tab, .settings__tabs .tab').on('click', function(event) {
         return false;
     });
 
+$('input[type="file"], select').styler();
+
 var mixer = mixitup('.products__inner-box');
 
 });
